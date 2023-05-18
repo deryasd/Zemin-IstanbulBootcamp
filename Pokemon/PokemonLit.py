@@ -9,7 +9,7 @@ st.write("""
 Pokemon Veri Seti **İnceleme** ve **Görselleştirme**
 
 """)
-df = pd.read_csv("Pokemon.csv")
+df = pd.read_csv("Pokemon/Pokemon.csv")
 df.head()
 st.sidebar.header('Grafik Bileşenlerini Seçiniz')
 
