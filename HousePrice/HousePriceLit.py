@@ -6,7 +6,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 
 st.title('House Price Data Seti')
-df = pd.read_csv("house_price.csv")
+df = pd.read_csv("HousePrice/house_price.csv")
 df.head()
 st.sidebar.header('İşlem Seçiniz')
 
