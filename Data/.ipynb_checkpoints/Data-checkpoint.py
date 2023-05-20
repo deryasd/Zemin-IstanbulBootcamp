@@ -10,7 +10,7 @@ st.title('Veri Seti İnceleme')
 dataset_options = ["house_price.csv", "Pokemon.csv", "data.csv"]
 selected_dataset = st.sidebar.selectbox("İncelemek istediğiniz veri setini seçin:", dataset_options)
 
-df = pd.read_csv(f"{selected_dataset}")
+df = pd.read_csv(f"Data/{selected_dataset}")
 
 st.sidebar.header('İşlem Seçiniz')
 
