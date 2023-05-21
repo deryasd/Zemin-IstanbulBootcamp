@@ -4,6 +4,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib
 import matplotlib.pyplot as plt
+import warnings
 warnings.filterwarnings('ignore')
 
 st.title('Veri Seti İnceleme')
