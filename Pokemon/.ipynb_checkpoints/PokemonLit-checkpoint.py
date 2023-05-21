@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+warnings.filterwarnings('ignore')
 
 st.write("""
 
@@ -9,7 +10,7 @@ st.write("""
 Pokemon Veri Seti **İnceleme** ve **Görselleştirme**
 
 """)
-df = pd.read_csv("Pokemon.csv")
+df = pd.read_csv("Pokemon/Pokemon.csv")
 df.head()
 st.sidebar.header('Grafik Bileşenlerini Seçiniz')
 
